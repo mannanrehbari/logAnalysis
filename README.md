@@ -1,6 +1,6 @@
 # Log Analysis
 
-Log Analysis is a small project that reflects basic understanding of Python DB API and writing basic PGSQL statements. It is built on Vagrant VM with Python 3 and PostgreSQL. The program connects with a database named _news_.
+Log Analysis is a small project that reflects basic understanding of Python DB API and writing basic PGSQL statements. It is built on Vagrant VM with Python and PostgreSQL. The program connects with a database named _news_.
 
 ## Dependencies
 This project assumes that Python 2.7.12 and PGSQL (PostgreSQL 9.5.14) are installed on vagrant VM machine with Ubuntu 16.04.5 LTS.
