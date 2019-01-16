@@ -11,7 +11,7 @@ To load the database into psql type the following command:
 This command will load data from **newsdata.sql** into **news** file, the latter can be run using psql.
 
 This program is dependent on two views that need to be created. To create views, run:
-`psql news`  on vagrant in the log_analysis directory. Once the psql command-line is ready, create the following views.
+`psql news`  on vagrant in the logAnalysis directory. Once the psql command-line is ready, create the following views.
 
 The first view:
 
