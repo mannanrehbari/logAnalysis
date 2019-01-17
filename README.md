@@ -15,11 +15,11 @@ This program is dependent on two views that need to be created. To create views,
 
 The first view:
 
-`create view error_status as select time::DATE, count(*) from log where status = '404 NOT FOUND' group by time::DATE;`
+`CREATE VIEW error_status AS SELECT time::DATE, COUNT(*) FROM log WHERE status = '404 NOT FOUND' GROUP BY time::DATE;`
 
 The second view:
 
-`create view all_status as select time::DATE, count(*) from log where status = '200 OK' group by time::DATE;`
+`CREATE VIEW all_status AS SELECT time::DATE, COUNT(*) FROM log GROUP BY time::DATE;`
 
 After creating views, exit out of psql command-line by pressing CTRL + D. Once back in the vagrant terminal, type the following to run the program: `python logAnalysis.py`
 

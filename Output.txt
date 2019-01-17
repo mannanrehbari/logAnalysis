@@ -10,4 +10,4 @@ Anonymous Contributor -- 170098 views
 Markoff Chaney -- 84557 views
 
 --------    Query3   ---------
-2016-07-17 -- 2.00 % errors
+2016-07-17 -- 2.26 % errors
