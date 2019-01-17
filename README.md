@@ -2,7 +2,7 @@
 
 Log Analysis script uses psycopg2 to query a mock PostgreSQL database for a fictional news website.
 There are three tables in the **news** database: __articles__, __authors__, and __logs__. The structure
-of each table can be accessed in psql using **\d example_table** command. __Articles__ has the following columns: author, title, slug, lead, body, time, and id.  __Authors__ has following columns: name, bio, and id. __log__ has the following columns: path, ip, method, status, time, and id. The logAnalysis.py script generates results for top articles, top authors, and date with highest '404 NOT FOUND' errors. In the same order, and saves it in output. The SQL queries can be seen inside __logAnalysis.py__ file.
+of each table can be accessed in psql using ``\d example_table`` command. __Articles__ has the following columns: author, title, slug, lead, body, time, and id.  __Authors__ has following columns: name, bio, and id. __log__ has the following columns: path, ip, method, status, time, and id. The logAnalysis.py script generates results for top articles, top authors, and date with highest '404 NOT FOUND' errors. In the same order, and saves it in output. The SQL queries can be seen inside __logAnalysis.py__ file.
 
 
 ## Dependencies
